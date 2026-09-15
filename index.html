@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Rank anything with friends in seconds. Paste a list, drag into tiers, share a link. Free, no login."
+    />
+    <meta name="theme-color" content="#EEF0F4" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#13151B" media="(prefers-color-scheme: dark)" />
+    <meta property="og:title" content="Tierboard" />
+    <meta property="og:description" content="Rank anything with friends in seconds." />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <title>Tierboard</title>
+    <script>
+      // Apply the saved color scheme before first paint (no flash).
+      try {
+        var prefs = JSON.parse(localStorage.getItem('tierboard:prefs') || '{}').state || {};
+        var scheme = prefs.colorScheme || 'system';
+        var dark =
+          scheme === 'dark' ||
+          (scheme === 'system' && matchMedia('(prefers-color-scheme: dark)').matches);
+        if (dark) document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Tierboard needs JavaScript to run.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

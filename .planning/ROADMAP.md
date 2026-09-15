@@ -10,11 +10,11 @@ Build Tierboard from an empty repo to a deployed, polished static app in five co
 - Integer phases (1, 2, 3): Planned milestone work
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
-- [ ] **Phase 1: Core Board** - Scaffold, data model, tier board, drag-and-drop, fast entry, item and tier editing
-- [ ] **Phase 2: Boards & History** - Autosave, multi-board home, templates, undo/redo
-- [ ] **Phase 3: Share & Export** - URL-hash sharing, JSON/CSV import-export, PNG export and copy image
-- [ ] **Phase 4: Group & Smart Ranking** - Quick Rank, presentation mode, random pick/debate, voting, comparison, tie breaker, hot takes, stats
-- [ ] **Phase 5: Polish & Ship** - Themes, search, command palette, shortcuts, mobile/a11y polish, tests, Pages workflow, README
+- [x] **Phase 1: Core Board** - Scaffold, data model, tier board, drag-and-drop, fast entry, item and tier editing
+- [x] **Phase 2: Boards & History** - Autosave, multi-board home, templates, undo/redo
+- [x] **Phase 3: Share & Export** - URL-hash sharing, JSON/CSV import-export, PNG export and copy image
+- [x] **Phase 4: Group & Smart Ranking** - Quick Rank, presentation mode, random pick/debate, voting, comparison, tie breaker, hot takes, stats
+- [x] **Phase 5: Polish & Ship** - Themes, search, command palette, shortcuts, mobile/a11y polish, tests, Pages workflow, README
 
 ## Phase Details
 
@@ -30,9 +30,9 @@ Build Tierboard from an empty repo to a deployed, polished static app in five co
 **Plans**: 3 plans
 
 Plans:
-- [ ] 01-01: Scaffold, strict TS/ESLint/Tailwind, data model and pure board operations
-- [ ] 01-02: Board view, tiers, items, dnd-kit multi-container drag
-- [ ] 01-03: Add-items dialog (bulk parsing, dedupe), item editor, tier settings and presets
+- [x] 01-01: Scaffold, strict TS/ESLint/Tailwind, data model and pure board operations
+- [x] 01-02: Board view, tiers, items, dnd-kit multi-container drag
+- [x] 01-03: Add-items dialog (bulk parsing, dedupe), item editor, tier settings and presets
 
 ### Phase 2: Boards & History
 **Goal**: Work is never lost and is easy to undo; many boards can live side by side
@@ -45,8 +45,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: Repository interface, localStorage + IndexedDB images, autosave, hash router, home page, templates
-- [ ] 02-02: Snapshot history with coalescing, keyboard undo/redo
+- [x] 02-01: Repository interface, localStorage + IndexedDB images, autosave, hash router, home page, templates
+- [x] 02-02: Snapshot history with coalescing, keyboard undo/redo
 
 ### Phase 3: Share & Export
 **Goal**: Results leave the app as links, files and polished images
@@ -59,8 +59,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 03-01: Share codec + transport interface, shared-board page, JSON/CSV
-- [ ] 03-02: Canvas export renderer (lazy), export dialog, clipboard
+- [x] 03-01: Share codec + transport interface, shared-board page, JSON/CSV
+- [x] 03-02: Canvas export renderer (lazy), export dialog, clipboard
 
 ### Phase 4: Group & Smart Ranking
 **Goal**: Ranking with a group around one screen is fast and fun
@@ -74,8 +74,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 04-01: Quick Rank, presentation mode, random pick, random debate, hot takes, stats
-- [ ] 04-02: Voting (tier + up/down), pairwise comparison, tie breaker
+- [x] 04-01: Quick Rank, presentation mode, random pick, random debate, hot takes, stats
+- [x] 04-02: Voting (tier + up/down), pairwise comparison, tie breaker
 
 ### Phase 5: Polish & Ship
 **Goal**: The app feels finished on every device and deploys itself
@@ -88,8 +88,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 05-01: Themes, search, command palette, shortcuts panel, delight, mobile + a11y pass
-- [ ] 05-02: Tests, deploy workflow, README with screenshots, final production build
+- [x] 05-01: Themes, search, command palette, shortcuts panel, delight, mobile + a11y pass
+- [x] 05-02: Tests, deploy workflow, README with screenshots, final production build
 
 ## Progress
 
@@ -98,8 +98,8 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Core Board | 0/3 | Not started | - |
-| 2. Boards & History | 0/2 | Not started | - |
-| 3. Share & Export | 0/2 | Not started | - |
-| 4. Group & Smart Ranking | 0/2 | Not started | - |
-| 5. Polish & Ship | 0/2 | Not started | - |
+| 1. Core Board | 3/3 | Complete | 2026-09-14 |
+| 2. Boards & History | 2/2 | Complete | 2026-09-14 |
+| 3. Share & Export | 2/2 | Complete | 2026-09-14 |
+| 4. Group & Smart Ranking | 2/2 | Complete | 2026-09-14 |
+| 5. Polish & Ship | 2/2 | Complete | 2026-09-14 |
