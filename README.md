@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.png" alt="Tierboard: rank anything with your crew in 30 seconds" width="100%">
+  <img src="docs/readme-title-tierboard.png" alt="Tierboard title card: a pizza tier board mid-rank, with one name card lifted as it is dragged into a tier" width="100%">
 </p>
 
 <p align="center">
