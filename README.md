@@ -3,6 +3,15 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/jameskbb/tierboard/actions/workflows/deploy.yml"><img alt="Deploy" src="https://img.shields.io/github/actions/workflow/status/jameskbb/tierboard/deploy.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=Deploy"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/jameskbb/tierboard?style=for-the-badge&label=License&color=blue"></a>
+  <a href="package.json"><img alt="TypeScript" src="https://img.shields.io/github/package-json/dependency-version/jameskbb/tierboard/dev/typescript?style=for-the-badge&logo=typescript&logoColor=white&label=TypeScript&color=3178C6"></a>
+  <a href="package.json"><img alt="React" src="https://img.shields.io/github/package-json/dependency-version/jameskbb/tierboard/react?style=for-the-badge&logo=react&logoColor=white&label=React&color=149ECA"></a>
+  <a href="https://jameskbb.github.io/tierboard/"><img alt="Live site" src="https://img.shields.io/website?url=https%3A%2F%2Fjameskbb.github.io%2Ftierboard%2F&label=Live&up_message=online&down_message=offline&style=for-the-badge&logo=githubpages&logoColor=white"></a>
+  <a href="docs/ARCHITECTURE.md"><img alt="No backend" src="https://img.shields.io/badge/Backend-none-1B1E27?style=for-the-badge"></a>
+</p>
+
+<p align="center">
   <b>A fast, delightful tier-list app for groups.</b><br>
   Paste a list, drag it into tiers, share a link. Free, no login, runs entirely in your browser.
 </p>
@@ -15,12 +24,6 @@
   <a href="#development">Development</a>
   &nbsp;·&nbsp;
   <a href="docs/ARCHITECTURE.md">Architecture</a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/jameskbb/tierboard/actions/workflows/deploy.yml"><img alt="Deploy" src="https://github.com/jameskbb/tierboard/actions/workflows/deploy.yml/badge.svg"></a>
-  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-5B4BFF">
-  <img alt="No backend" src="https://img.shields.io/badge/backend-none-1B1E27">
 </p>
 
 <p align="center">
