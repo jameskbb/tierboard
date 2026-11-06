@@ -5,3 +5,8 @@ coverage
 .DS_Store
 .vite
 *.log
+.env*
+!.env.example
+.claude/settings.local.json
+.claude/worktrees/
+.planning/
